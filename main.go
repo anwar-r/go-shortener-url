@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	_ "go-shortener-url/docs"
-	"go-shortener-url/handler"
-	"go-shortener-url/redis"
+	_ "github.com/anwar-r/go-shortener-url/docs"
+	"github.com/anwar-r/go-shortener-url/handler"
+	"github.com/anwar-r/go-shortener-url/redis"
 
 	"github.com/gorilla/mux"
 	httpSwagger "github.com/swaggo/http-swagger/v2"

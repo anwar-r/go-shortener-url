@@ -1,4 +1,4 @@
-module go-shortener-url
+module github.com/anwar-r/go-shortener-url
 
 go 1.21.6
 

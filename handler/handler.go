@@ -3,9 +3,10 @@ package handler
 import (
 	"context"
 	"encoding/json"
-	"go-shortener-url/redis"
 	"net/http"
 	"time"
+
+	"github.com/anwar-r/go-shortener-url/redis"
 
 	"github.com/gorilla/mux"
 	"github.com/shkshariq/go-util/log"
