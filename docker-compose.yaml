@@ -1,0 +1,13 @@
+version: '2.8'
+
+services:
+# Redis
+    redis:
+    image: redis:latest
+    container_name: redis
+    platform: linux/arm64
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    ports:
+      - "6379:6379"
